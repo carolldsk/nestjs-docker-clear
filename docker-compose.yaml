@@ -1,7 +1,7 @@
 version: '1.0'
 services:
   signature:
-    container_name: vibem
+    container_name: nestjs-docker-clear
     build:
       dockerfile: Dockerfile
       context: .
