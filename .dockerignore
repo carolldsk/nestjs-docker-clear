@@ -1,0 +1,7 @@
+/.idea
+/.env
+.env
+/node_modules
+# ARQUIVOS DE SISTEMA
+.DS_Store
+Thumbs.db

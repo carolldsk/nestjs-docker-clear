@@ -1,0 +1,14 @@
+version: '1.0'
+services:
+  signature:
+    container_name: vibem
+    build:
+      dockerfile: Dockerfile
+      context: .
+      target: development
+    volumes:
+      - .:/home/node/app
+      - /home/node/app/node_modules
+    command: npm run start:dev
+    ports:
+      - 3000:3000
