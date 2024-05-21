@@ -1,4 +1,4 @@
-# node-docker-clear
+# nestjs-docker-clear
 
 A nestjs project scaffolding with docker
 
